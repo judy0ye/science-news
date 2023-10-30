@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom'
 import './Articles.css'
 
 export default function Articles({articles}) {
-  return articles.map(article => {
+
+  return articles.map((article, index) => {
     return (
-      <section className='articles' key={article.title}>
+      <section className='articles' key={index}>
         <div>
           <img className='main-display-images' src={article.urlToImage} alt={article.title}></img>
         </div>
@@ -11,7 +13,7 @@ export default function Articles({articles}) {
           <h2>{article.title}</h2>
           <p>{article.description}</p>
           <p>{article.publishedAt}</p>
-          <button>See More</button>
+          <Link to={`/details/${article.title}`}>See More</Link>
         </div>
       </section>
     )
