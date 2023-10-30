@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Header from './Header/Header';
+import Header from '../Header/Header';
 // import { fetchTopScienceHeadlines } from '../../apiCalls';
 import mockData from '../../mockData/scienceHeadlines.json'
+import Articles from '../Articles/Articles';
 
 function App() {
   const [articles, setArticles] = useState([])
@@ -23,6 +24,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Articles articles={articles}/>
     </div>
   );
 }
