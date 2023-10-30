@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Header from '../Header/Header';
 // import { fetchTopScienceHeadlines } from '../../apiCalls';
 import mockData from '../../mockData/scienceHeadlines.json'
+import Header from '../Header/Header';
 import Articles from '../Articles/Articles';
+import DetailedArticle from '../DetailedArticle/DetailedArticle';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   const [articles, setArticles] = useState([])
@@ -24,7 +26,10 @@ function App() {
   return (
     <div>
       <Header />
-      <Articles articles={articles}/>
+      <Routes>
+        <Route path='/' element={<Articles articles={articles}/>}/>
+        <Route path='/details/:articleTitle' element={<DetailedArticle articles={articles}/>}/>
+      </Routes>
     </div>
   );
 }
