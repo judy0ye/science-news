@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 // import { fetchTopScienceHeadlines } from '../../apiCalls';
 import mockData from '../../mockData/scienceHeadlines.json'
 import Articles from '../Articles/Articles';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   const [articles, setArticles] = useState([])
@@ -24,7 +25,9 @@ function App() {
   return (
     <div>
       <Header />
-      <Articles articles={articles}/>
+      <Routes>
+        <Route path='/' element={<Articles articles={articles}/>}/>
+      </Routes>
     </div>
   );
 }
