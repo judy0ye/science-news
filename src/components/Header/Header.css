@@ -8,3 +8,9 @@ h1 {
   font-size: 2em;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+@media screen and (max-width: 545px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
