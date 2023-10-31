@@ -32,3 +32,9 @@
   background: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 545px) {
+  #search {
+    width: 10em; 
+  }
+}
