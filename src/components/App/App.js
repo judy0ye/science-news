@@ -29,7 +29,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path='/' element={<><Search setSearch={setSearch}/> <Articles articles={articles} search={search}/>  </> }/>
+        <Route path='/' element={<><Search search={search} setSearch={setSearch}/> <Articles articles={articles} search={search}/>  </> }/>
         <Route path='/details/:articleTitle' element={<DetailedArticle articles={articles}/>}/>
       </Routes>
     </div>
