@@ -16,8 +16,8 @@ article {
 }
 
 .back,
-a {
-  background: linear-gradient(to bottom, #667688 5%, #ccccc6 100%);
+.outside-source {
+  background: linear-gradient(to bottom, #8b9eb6 5%, #ccccc6 100%);
   border-radius: 10px;
   border: 3px solid #000000;
   cursor: pointer;

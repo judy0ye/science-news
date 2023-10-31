@@ -29,7 +29,7 @@ export default function Articles({ articles, search }) {
               <h2>{article.title}</h2>
               <p>{article.description}</p>
               <p>{formattedDate}</p>
-              <Link to={`/details/${encodeURIComponent(article.title)}`}>
+              <Link className='see-more' to={`/details/${encodeURIComponent(article.title)}`}>
                 See More
               </Link>
             </div>
