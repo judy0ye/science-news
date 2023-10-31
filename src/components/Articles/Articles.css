@@ -12,3 +12,15 @@
   border: 1px solid black;
   border-radius: 5px;
 }
+
+.see-more, 
+.home {
+  background: linear-gradient(to bottom, #8b9eb6 5%, #ccccc6 100%);
+  border-radius: 10px;
+  border: 3px solid #000000;
+  cursor: pointer;
+  color: black;
+  font-size: 1em;
+  padding: 0.3em 1em;
+  text-decoration: none;
+}

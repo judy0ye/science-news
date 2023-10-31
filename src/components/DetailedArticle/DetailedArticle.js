@@ -18,7 +18,7 @@ export default function DetailedArticle({articles}) {
         <img className='detailed-article-image' src={article.urlToImage} alt={article.title}></img>
         <p>{article.content}</p>
         <p>Source: {article.source.name}</p>
-        <a href={article.url} target='_blank'>See Source Article</a>
+        <a className='outside-source' href={article.url} target='_blank'>See Source Article</a>
       </div>
     </article>
   )
