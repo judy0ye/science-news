@@ -1,0 +1,12 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.error-img {
+  width: 20rem;
+  border: 3px solid black;
+  border-radius: 10px;
+}
