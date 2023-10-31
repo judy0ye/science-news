@@ -5,11 +5,13 @@ import mockData from '../../mockData/scienceHeadlines.json'
 import Header from '../Header/Header';
 import Articles from '../Articles/Articles';
 import DetailedArticle from '../DetailedArticle/DetailedArticle';
+import Search from '../Search/Search';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
   const [articles, setArticles] = useState([])
-  
+  const [search, setSearch] = useState('')
+ 
   useEffect(() => {
     const getTopSceienceHeadlines = async () => {
       try {
@@ -27,7 +29,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path='/' element={<Articles articles={articles}/>}/>
+        <Route path='/' element={<><Search setSearch={setSearch}/> <Articles articles={articles}/>  </> }/>
         <Route path='/details/:articleTitle' element={<DetailedArticle articles={articles}/>}/>
       </Routes>
     </div>
