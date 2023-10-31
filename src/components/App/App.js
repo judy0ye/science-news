@@ -6,12 +6,17 @@ import Header from '../Header/Header';
 import Articles from '../Articles/Articles';
 import DetailedArticle from '../DetailedArticle/DetailedArticle';
 import Search from '../Search/Search';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 
 function App() {
   const [articles, setArticles] = useState([])
   const [search, setSearch] = useState('')
+  const location = useLocation()
  
+  useEffect(() => {
+    setSearch('')
+  }, [location])
+  
   useEffect(() => {
     const getTopSceienceHeadlines = async () => {
       try {
