@@ -25,6 +25,11 @@
   text-decoration: none;
 }
 
+.no-results {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 545px) {
   .main-display-images {
