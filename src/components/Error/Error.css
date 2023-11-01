@@ -10,3 +10,13 @@
   border: 3px solid black;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 375px) {
+  .error {
+    font-size: .8em;
+  }
+  .error-img {
+    width: 15rem;
+    border: 2px solid black;
+  }
+}

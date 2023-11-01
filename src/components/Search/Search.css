@@ -4,7 +4,7 @@
 }
 
 #search {
-  width: 20em; 
+  width: 20em;
   font-size: 1.7em;
   font-weight: bold;
   border: none;
@@ -23,7 +23,7 @@
 
 .search-container:focus-within {
   border: 2px solid #214587;
-  transition: border-color 0.3s
+  transition: border-color 0.3s;
 }
 
 .clear-search {
@@ -33,8 +33,28 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 615px) {
+  #search {
+    width: 16em;
+  }
+}
+
 @media screen and (max-width: 545px) {
   #search {
-    width: 10em; 
+    width: 14em;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  #search {
+    width: 11em;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  #search {
+    width: 8.5em;
+    font-size: 1.2em;
   }
 }
