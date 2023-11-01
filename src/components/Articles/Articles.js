@@ -28,7 +28,7 @@ export default function Articles({ articles, search }) {
             src={article.urlToImage}
             alt={article.title}></img>
         </div>
-        <div>
+        <div className='details'>
           <h2>{article.title}</h2>
           <p>{article.description}</p>
           <p>{formattedDate}</p>
