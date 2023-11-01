@@ -27,3 +27,44 @@ article {
   margin: 1rem .5rem 0rem;
   text-decoration: none;
 }
+
+@media screen and (max-width: 670px) {
+  .detailed-article-image {
+    width: 35rem;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .detailed-article-image {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .detailed-article-image {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .detailed-article-image {
+    width: 20rem;
+  }
+
+  .detailed-article,
+  .back,
+  .outside-source {
+    font-size: .9em;
+  }
+}
+@media screen and (max-width: 335px) {
+  .detailed-article-image {
+    width: 15rem;
+  }
+
+  .detailed-article,
+  .back,
+  .outside-source {
+    font-size: .8em;
+  }
+}

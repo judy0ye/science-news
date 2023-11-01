@@ -74,6 +74,7 @@
 @media screen and (max-width: 570px) {
   .articles {
     height: auto;
+    font-size: .8em;
   }
   .main-display-images {
     width: 20rem;
