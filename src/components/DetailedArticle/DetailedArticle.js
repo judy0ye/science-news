@@ -1,14 +1,15 @@
-import { Link, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import './DetailedArticle.css'
-
+// encodeURIComponent(article.title) === encodeURIComponent(articleTitle)
 export default function DetailedArticle({articles}) {
+  const navigate = useNavigate()
   const {articleTitle} = useParams()
-  const article = articles?.find(article => article.title === articleTitle)
+  const article = articles?.find(article => article.title === decodeURIComponent(articleTitle))
   const reducedArticleDate = article?.publishedAt.substring(0, 10)
   const articleDate = new Date(reducedArticleDate)
   const formattedDate = `${articleDate.getMonth() + 1}/${articleDate.getUTCDate()}/${articleDate.getFullYear()}`
   
-  return article && (
+  return article ? (
     <article >
       <Link className='back' to='/'>Back To Main</Link>
       <div className='detailed-article'>
@@ -20,6 +21,6 @@ export default function DetailedArticle({articles}) {
         <p>Source: {article.source.name}</p>
         <a className='outside-source' href={article.url} target='_blank'>See Source Article</a>
       </div>
-    </article>
-  )
+    </article> 
+  ): navigate('*')
 }
