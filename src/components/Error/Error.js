@@ -6,7 +6,7 @@ export default function Error({error}) {
   console.log('err', error)
   return (
     <div className='error'>
-      {error ? <h2>{error}</h2> : <h2>Oops, Nothing to see here</h2>}
+      {error ? <h2>{error}</h2> : <h2>Oops, Nothing to see here!</h2>}
       <img className='error-img' src={cat} alt='upside down cat'/>
       <Link className='home' to='/'>Home</Link>
     </div>
