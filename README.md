@@ -32,8 +32,6 @@ npm start
 - Demonstrate understanding of React JS and Front-End best practices
 - Prioritizing MVP(minimum viable product)
 - Demonstrate understanding of basic usability practices and standards
-- Gain competency fetching from public APIs 
-- Create a multi-page UX using Router
 
 ## 📸 Screenshots
 <details open>
