@@ -40,6 +40,7 @@ npm start
   | Description | Screenshot |
   |------------ | -----------|
   | <h3 align="center">Landing Page and Detailed Articles| ![science-news](https://github.com/judy0ye/science-news/assets/129805348/60665ba9-d26f-409f-8d18-9da8acf71a7e)
+  | <h3 align="center">Responsiveness| ![science-news-responsiveness](https://github.com/judy0ye/science-news/assets/129805348/4a927f3a-84b3-4cd1-a852-17a1c521bd7d)
 
   
 </details>
