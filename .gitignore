@@ -11,6 +11,9 @@
 # production
 /build
 
+# Cypress configuration and environment variables
+cypress.config.js
+
 # misc
 .DS_Store
 .env

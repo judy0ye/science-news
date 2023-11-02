@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "totalResults": 47,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "NDTV News"
+      },
+      "author": null,
+      "title": "Flying In Martian Sky, A NASA Chopper Made By An Indian - NDTV",
+      "description": "US space agency NASA is flying an aircraft -- a helicopter capable of flying in alien atmosphere -- in Mars.",
+      "url": "https://www.ndtv.com/india-news/flying-in-martian-sky-a-nasa-chopper-made-by-an-indian-4525965",
+      "urlToImage": "https://c.ndtvimg.com/2023-10/nsia1da4_dr-j-bob-balaram_625x300_29_October_23.jpg",
+      "publishedAt": "2023-10-29T17:46:00Z",
+      "content": "US space agency NASA is flying an aircraft -- a helicopter capable of flying in alien atmosphere -- in Mars. The 1.8 kg chopper, called Ingenuity, nicknamed \"Ginny\", is part of NASA's Perseverance ro… [+2781 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wccftech"
+      },
+      "author": "Ramish Zafar",
+      "title": "NASA Shatters Dreams & Admits Humans Will Never Go To Jupiter - Wccftech",
+      "description": "NASA has suprised followers after a social media post shatters dreams and says manned missions to Jupiter are impossible.",
+      "url": "https://wccftech.com/nasa-shatters-dreams-admits-humans-will-never-go-to-jupiter/",
+      "urlToImage": "https://cdn.wccftech.com/wp-content/uploads/2023/05/1183851342-scaled.webp",
+      "publishedAt": "2023-10-29T17:38:00Z",
+      "content": "This is not investment advice. The author has no position in any of the stocks mentioned. Wccftech.com has a disclosure and ethics policy.\r\nThe National Aeronautics and Space Administration (NASA) is… [+3840 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "indy100"
+      },
+      "author": "Harry Fletcher",
+      "title": "Massive ocean discovered beneath the Earth's crust containing more water than on the surface | indy100 - indy100",
+      "description": "It feels like there have been staggering science stories emerging every other day recently, all of which have blown our tiny little minds.First, there was the discovery of a terrifying black hole pointing right at us, then there was a huge hole found in the s…",
+      "url": "https://www.indy100.com/science-tech/ocean-beneath-earth-crust-ringwoodite-2666094152",
+      "urlToImage": "https://www.indy100.com/media-library/is-earth-imploding-beneath-the-ocean-unexplained-sinkholes-unveiled.jpg?id=33372289&width=1200&height=600&coordinates=0%2C173%2C0%2C173",
+      "publishedAt": "2023-10-29T16:03:50Z",
+      "content": "It feels like there have been staggering science stories emerging every other day recently, all of which have blown our tiny little minds.\r\nFirst, there was the discovery of a terrifying black hole p… [+2268 chars]"
+    }
+  ]
+}
