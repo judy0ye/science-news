@@ -17,6 +17,12 @@
   border-radius: 5px;
 }
 
+.main-display-missing-image {
+  width: 25rem;
+  height: 15rem;
+  object-fit: scale-down;
+}
+
 .details {
   display: flex;
   flex-direction: column;
