@@ -40,6 +40,7 @@ npm start
   | Description | Screenshot |
   |------------ | -----------|
   | <h3 align="center">Landing Page and Detailed Articles| ![science-news](https://github.com/judy0ye/science-news/assets/129805348/60665ba9-d26f-409f-8d18-9da8acf71a7e)
+  | <h3 align="center">Responsiveness| ![science-news-responsiveness](https://github.com/judy0ye/science-news/assets/129805348/4a927f3a-84b3-4cd1-a852-17a1c521bd7d)
 
   
 </details>
@@ -75,4 +76,6 @@ npm start
 ## ℹ️ Source Credits:
 
   Photo by <a href="https://unsplash.com/@paleskinbabe?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Anton Lochov</a> on <a href="https://unsplash.com/photos/brown-tabby-cat-on-white-textile-_b020HIGZUE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+  404 Photo by <a href="https://www.freepik.com/free-vector/404-error-with-cute-animal-concept-illustration_8030429.htm#page=8&query=image%20not%20available&position=40&from_view=search&track=ais">Image by storyset</a> on Freepik
   
