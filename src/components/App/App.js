@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import { fetchTopScienceHeadlines } from '../../apiCalls';
-// import mockData from '../../mockData/scienceHeadlines.json'
+// import { fetchTopScienceHeadlines } from '../../apiCalls';
+import mockData from '../../mockData/scienceHeadlines.json'
 import Header from '../Header/Header';
 import Articles from '../Articles/Articles';
 import DetailedArticle from '../DetailedArticle/DetailedArticle';
@@ -22,9 +22,11 @@ function App() {
   useEffect(() => {
     const getTopSceienceHeadlines = async () => {
       try {
-        const topScienceHeadlines = await fetchTopScienceHeadlines()
-        setArticles(topScienceHeadlines.articles)
-        // setArticles(mockData.articles)
+        // const topScienceHeadlines = await fetchTopScienceHeadlines()
+        // setArticles(topScienceHeadlines.articles)
+        // const filteredRemoved= topScienceHeadlines.articles.filter(article => article.content !== '[Removed]')
+        const filteredRemoved= mockData.articles.filter(article => article.content !== '[Removed]')
+        setArticles(filteredRemoved)
       } catch (err) {
         console.log(err)
         setError(`${err.message}: Something went wrong`)
